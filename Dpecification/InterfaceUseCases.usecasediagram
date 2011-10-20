@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1abdf542-87ab-445d-b7fb-4df3bbbced73" name="InterfaceUseCases" linkedPackageId="60fb5671-22a3-4b3c-b7a2-812024661f35" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="0f8832d2-f0dd-48e5-8c33-30e7ee40005d">
+      <profileInstance Id="ce064438-0707-4114-a85a-ac2654507680" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5fd088d0-904f-45dd-abfe-2d6d503f5197">
+      <profileInstance Id="63cf41b4-19dd-41e5-9e7a-a05af83f35a4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="8bc3ac99-4031-42b7-8faf-80c60b074a7d" name="Wyższa warstwa systemu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4dd6974d-0b98-4e98-aac2-ff983e8952f7" />
+        <targetEnds>
+          <association Id="4b353716-d4ed-45ca-a4d7-5ed15022f34f" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Wyższa warstwa systemu" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="8bc3ac99-4031-42b7-8faf-80c60b074a7d" LastKnownName="Wyższa warstwa systemu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="693fb874-dee3-49a7-86cf-91cd5c733d27" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bb889503-1758-4df8-abaf-fb68c6edbfad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4994994-37d3-4e82-93cb-ece3597b2e65" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c356f69e-cdfa-41ba-ae55-70672af22083" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3cf3434-6d4f-449d-b8ce-f05134da8827" />
+          </association>
+          <association Id="16eed618-a1b7-490f-816c-8455cb724b17" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Stworzenie bazy danych" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="93a939b1-b3a0-418e-a0da-bde1be6d3055" LastKnownName="Stworzenie bazy danych" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="575f118d-8868-463e-a77c-cd4f58265420" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="96ffea16-dab7-4ec0-b8a4-03f1e691a469" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc37687e-af1e-419d-b1c6-165a923bf7f0" name="Stworzenie bazy danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="381ddf5b-760c-44b1-b7f6-8191a6ab72ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6bb24732-fae5-4e32-8257-22fd16b6580b" />
+          </association>
+          <association Id="fc92ade0-fa55-4808-82fc-de20c5c68028" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Pobranie schematu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="301e3f6b-85ef-4e14-bc4d-0d542fc5ef03" LastKnownName="Pobranie schematu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="db882be7-4c47-4f82-af63-951584dde820" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="34f36027-f514-434c-af54-86c703ff0fa0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a721e275-335f-4e23-b56b-e6c6fa65a5b8" name="Pobranie schematu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9f6f4c69-27e0-4a7a-ada2-f05bba27a3ea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cba10430-92dc-4eed-aadd-fb96bd40c818" />
+          </association>
+          <association Id="eb7bfa5a-80d3-4666-87ec-24500ae1ffe9" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Aktualizacja schematu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6453635d-b643-4f96-9d69-997bef19cba0" LastKnownName="Aktualizacja schematu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ddb0581-0c01-4b9c-9eae-f4e0fe7d3dcf" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fbe6b1c2-9c2d-4d54-b6b0-7ec4f01214e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3264b953-91a9-46d0-a2b0-a7ca936a74c8" name="Aktualizacja schematu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dc2aa2c9-71d0-4a07-9705-257c18b98820" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="68a1c083-299d-4352-ab33-282d27e10eca" />
+          </association>
+          <association Id="f19270dc-1e8f-4c75-bdcf-b0c9761d5fed" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Stworzenie schematu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="196611ad-045f-43a5-8a37-a08be0cf599c" LastKnownName="Stworzenie schematu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="382c1498-dc98-4415-9e24-1c62d73c0216" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a12eb9e5-129b-446f-a137-5714a79c095e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77c6e674-f21a-4310-86b5-bf951f4f2574" name="Stworzenie schematu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f4dad189-33fd-4f80-95b3-3ff1707833a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7a7b6af1-1566-47dd-9931-d19589c20ef1" />
+          </association>
+          <association Id="290fef69-6084-4edc-b967-194be02d9a49" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Zapis nowego obiektu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49a29bc4-0e1d-48bc-93e2-469ceef9b22b" LastKnownName="Zapis nowego obiektu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="688fe138-ca35-4e82-bda8-a6d8f3d8ac7c" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8ee73c43-b6a3-479b-a2fb-418b23d914db" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d3a1434-12c0-4338-b55e-ece74ddc9a15" name="Zapis nowego obiektu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="83dca0b9-629b-4158-bf35-1147a55b116b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc2c9913-f563-420c-960a-b2f693f28010" />
+          </association>
+          <association Id="c938741b-7012-473e-a733-87a28c33f881" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Odczyt obiektu po OID" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dc195e43-3dc8-464e-a7f5-f981fb8872f7" LastKnownName="Odczyt obiektu po OID" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="40309c69-05ad-4c25-9209-ace31499991f" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="26aba64c-49b3-4e62-98c2-6bb99e985221" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e42eb372-0d96-48ce-8c4c-ce1272ffd9dc" name="Odczyt obiektu po OID" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="392e2879-d329-48c6-a06e-df231e1112cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="219fe432-ce54-42c2-964c-5a90ede57016" />
+          </association>
+          <association Id="5cc2d37c-b302-42d7-9dd1-9557e4749789" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Aktualizacja obiektu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e1f629f2-f4fc-409d-9bb8-876de061b7e0" LastKnownName="Aktualizacja obiektu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="82cd40f9-9764-45d4-97b6-7fa714a3b596" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="215c1525-b773-44b4-bf09-72cd66a80ec2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02c186a7-9a12-4e45-9d34-6a75aa46e914" name="Aktualizacja obiektu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d5e1d301-0d61-4d6e-90dc-6df9640f05d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="359a8e95-e29a-4384-9e54-a87ad2e0bdca" />
+          </association>
+          <association Id="601f6589-5044-4d2e-9344-21bb29966beb" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Wyszukiwanie obiektu" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="acdf128d-078b-4f10-8267-9abbfd9d7e80" LastKnownName="Wyszukiwanie obiektu" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e7680e7-783c-4cb2-940e-e3727323a8cf" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7f043993-5b86-44ac-9544-85e20ea432ec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9dbe8967-4eea-4ba0-905d-0a5d1ecb94c7" name="Wyszukiwanie obiektu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9bcd2b56-e114-409a-bddc-e5f8663fba62" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d3492901-beb2-4e69-9abb-a6ca3f740c0c" />
+          </association>
+          <association Id="ff311ba2-6209-44fb-b24b-6b874f626039" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Pobranie listy baz danych" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3ddb841a-f3b1-400a-8c0d-dad1f4cd64dd" LastKnownName="Pobranie listy baz danych" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a810391e-0225-4bab-aca6-2d484db85789" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3bd65a32-ffea-459b-99c2-356e7b3a400d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="920870ab-804a-4ea2-b817-70542ad9f0b5" name="Pobranie listy baz danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3dca6761-cad5-402a-b7ab-3da2924c0d17" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1f7f1003-5d67-4be9-b725-3c366b7f11c4" />
+          </association>
+          <association Id="c62c9321-8071-4009-be9b-5ae9ef1aaa7f" isDerived="false" sourceEndRoleName="Wyższa warstwa systemu" targetEndRoleName="Usunięcie bazy danych" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bce405d6-30d5-4aa4-8c63-639dbaa89cf8" LastKnownName="Usunięcie bazy danych" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6ec3ab3-2396-4ca2-965c-25bef1ce5f25" name="Wyższa warstwa systemu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="af515b96-4ad7-4eef-899f-694df228d5dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1b411716-cb2a-4f2d-80ed-ea51678cb1f0" name="Usunięcie bazy danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="42ee7e29-771a-4136-9d64-bcac68c2fc78" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89ab092e-14ad-4d5b-96a3-2d7a782bddaf" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="49a29bc4-0e1d-48bc-93e2-469ceef9b22b" name="Zapis nowego obiektu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="11fdff78-658f-4eb4-9d0a-781c944e35fc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dc195e43-3dc8-464e-a7f5-f981fb8872f7" name="Odczyt obiektu po OID" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="08da1c1d-2b6b-4ff6-8a2d-51dfe943c483" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e1f629f2-f4fc-409d-9bb8-876de061b7e0" name="Aktualizacja obiektu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dda0785d-4905-4358-9584-0f593db23fe4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="acdf128d-078b-4f10-8267-9abbfd9d7e80" name="Wyszukiwanie obiektu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e8776611-6a75-4c98-be7c-1cce95843320" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="196611ad-045f-43a5-8a37-a08be0cf599c" name="Stworzenie schematu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c4fbfd7-3523-4b6b-a141-7cbdd45b4131" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6453635d-b643-4f96-9d69-997bef19cba0" name="Aktualizacja schematu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b694e2f8-a05d-47fd-93fd-076bef324d06" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="301e3f6b-85ef-4e14-bc4d-0d542fc5ef03" name="Pobranie schematu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="71b249db-1adf-44ed-9ebd-d66f7c8f384f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="93a939b1-b3a0-418e-a0da-bde1be6d3055" name="Stworzenie bazy danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="580322e8-f8d0-424a-9c6d-7b2405e75657" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bce405d6-30d5-4aa4-8c63-639dbaa89cf8" name="Usunięcie bazy danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba826b17-6a03-42da-a099-265224647e29" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3ddb841a-f3b1-400a-8c0d-dad1f4cd64dd" name="Pobranie listy baz danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="82913595-1f0d-4f23-9328-a5ddefdb3593" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="60fb5671-22a3-4b3c-b7a2-812024661f35" name="Dpecification">
+    <elementDefinition Id="83650a0f-77b6-4296-ad7d-0b43ca21d581" />
+  </package>
+</useCaseModelRoot>
