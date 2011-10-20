@@ -40,10 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\IStorable.cs" />
-    <Compile Include="Core\Oid.cs" />
+    <Compile Include="Core\Metadata\DeleteDatabaseStatus.cs" />
+    <Compile Include="Core\Metadata\Did.cs" />
+    <Compile Include="Core\Metadata\StorageStrategy.cs" />
+    <Compile Include="Core\Storage\IMethod.cs" />
+    <Compile Include="Core\Storage\IProperty.cs" />
+    <Compile Include="Core\Storage\ISearchCriteria.cs" />
+    <Compile Include="Core\Storage\IStorable.cs" />
+    <Compile Include="Core\Metadata\IDatabaseParameters.cs" />
+    <Compile Include="Core\Metadata\IDatabaseRemoveParameters.cs" />
+    <Compile Include="Core\Storage\Oid.cs" />
     <Compile Include="IMetadataStorage.cs" />
     <Compile Include="IStorage.cs" />
+    <Compile Include="IStorageInstrumentation.cs" />
+    <Compile Include="IStorageManagement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

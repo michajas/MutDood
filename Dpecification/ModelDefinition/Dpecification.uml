@@ -454,6 +454,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="92dde71d-e004-4952-930b-6200c5e7a739"
+            isDerived="false"
+            sourceEndRoleName="Wyższa warstwa systemu"
+            targetEndRoleName="Pobieranie bazy danych"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4d661478-74c9-4564-8d87-7563d31abf97"
+              LastKnownName="Pobieranie bazy danych"
+              LastKnownLocation="Dpecification.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15044160-391c-49bb-900f-2b62f4a4f19d"
+                  name="Wyższa warstwa systemu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2ad8834-7a45-4c07-aa42-aa7fe93a9f23"
+                  name="Pobieranie bazy danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -531,6 +570,13 @@
       <useCase
         Id="3d5d699e-b514-4ba0-a80e-9d8782f38e14"
         name="Zapis nowego obiektu1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4d661478-74c9-4564-8d87-7563d31abf97"
+        name="Pobieranie bazy danych"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
