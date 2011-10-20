@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{25F65FE9-CE2F-4AAE-8F34-3B08BD62142A}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Dpecification", "Dpecification\Dpecification.modelproj", "{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Specification", "Dpecification\Specification.modelproj", "{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutDood.Storage.Core", "MutDood.Storage.Core\MutDood.Storage.Core.csproj", "{ECA1C184-3217-464E-A32E-48132CAE47BB}"
 EndProject

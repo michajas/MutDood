@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="B2A9CE15-5FE6-4B8F-BC08-66650C946D49" ModuleId="MutDood.Storage.Interfaces" />
+  <Module PersistentId="7667355F-9F36-4B3C-AABC-8BD943BB1B39" ModuleId="MutDood.Testing.Storage" />
 </Modules>
