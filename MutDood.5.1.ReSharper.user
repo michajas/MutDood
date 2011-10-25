@@ -36,13 +36,8 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:ISearchCriteria.cs" caret="99" fromTop="4" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:DeleteDatabaseStatus.cs" caret="109" fromTop="4" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IProperty.cs" caret="209" fromTop="8" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IMethod.cs" caret="193" fromTop="8" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="249" fromTop="8" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:Did.cs" caret="335" fromTop="12" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="16" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseParameters.cs" caret="331" fromTop="10" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:StorageStrategy.cs" caret="86" fromTop="2" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseRemoveParameters.cs" caret="152" fromTop="4" />
@@ -51,6 +46,11 @@
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="0" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageInstrumentation.cs" caret="235" fromTop="7" />
       <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="13" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:ISearchCriteria.cs" caret="22" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IProperty.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IMethod.cs" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseParameters.cs" caret="52" fromTop="0" />
@@ -78,6 +78,7 @@
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageInstrumentation.cs" caret="245" fromTop="7" />
       <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="437" fromTop="17" />
       <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="13" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:ISearchCriteria.cs" caret="22" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

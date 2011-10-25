@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MutDood.Storage.Interfaces.Core.Metadata.DeleteDatabaseStatus" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Metadata\DeleteDatabaseStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MutDood.Storage.Interfaces.Core.Metadata.Did">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Core\Metadata\Did.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MutDood.Storage.Interfaces.Core.Storage.Oid">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Core\Storage\Oid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Metadata.IDatabaseParameters">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAIAAAABCAAAA=</HashCode>
+      <FileName>Core\Metadata\IDatabaseParameters.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Strategy" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Metadata.IDatabaseRemoveParameters">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Metadata\IDatabaseRemoveParameters.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DatabaseToRemove" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Storage.IMethod" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Core\Storage\IMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Storage.IProperty" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Core\Storage\IProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Storage.ISearchCriteria" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Storage\ISearchCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.Core.Storage.IStorable">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAEA=</HashCode>
+      <FileName>Core\Storage\IStorable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Oid" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.IMetadataStorage" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAgAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMetadataStorage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.IStorage" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStorage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.IStorageInstrumentation" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStorageInstrumentation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MutDood.Storage.Interfaces.IStorageManagement" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAEAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStorageManagement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MutDood.Storage.Interfaces.Core.Metadata.StorageStrategy">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Metadata\StorageStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

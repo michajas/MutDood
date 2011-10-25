@@ -1,4 +1,4 @@
-namespace MutDood.Storage.Interfaces.Core
+namespace MutDood.Storage.Interfaces.Core.Storage
 {
     public interface ISearchCriteria
     {

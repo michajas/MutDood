@@ -1,0 +1,8 @@
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\bin\Debug\MutDood.Testing.Storage.exe
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\bin\Debug\MutDood.Testing.Storage.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.Properties.Resources.resources
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.exe
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.pdb
