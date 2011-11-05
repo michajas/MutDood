@@ -3,3 +3,5 @@ D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Strategies.Speed\bin\Debu
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Strategies.Speed\obj\Debug\ResolveAssemblyReference.cache
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Strategies.Speed\obj\Debug\MutDood.Storage.Strategies.Speed.dll
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Strategies.Speed\obj\Debug\MutDood.Storage.Strategies.Speed.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Storage.Strategies.Speed.dll
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Storage.Strategies.Speed.pdb

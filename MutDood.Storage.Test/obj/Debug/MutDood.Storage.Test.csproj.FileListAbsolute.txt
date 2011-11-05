@@ -1,0 +1,5 @@
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Test\bin\Debug\MutDood.Storage.Test.dll
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Test\bin\Debug\MutDood.Storage.Test.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Test\obj\Debug\MutDood.Storage.Test.dll
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Test\obj\Debug\MutDood.Storage.Test.pdb

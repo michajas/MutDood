@@ -18,7 +18,7 @@ namespace MutDood.Storage.Core.Serialization
 
         public List<ISerializedStorable> Serialize(IStorable objectToStore)
         {
-            throw new NotImplementedException();
+            return new List<ISerializedStorable>();
         }
 
         public IStorable Deserialize(ISerializedStorable serializedStorable)

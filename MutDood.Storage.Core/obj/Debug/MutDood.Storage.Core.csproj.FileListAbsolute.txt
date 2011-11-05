@@ -3,3 +3,5 @@ D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Core\bin\Debug\MutDood.St
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Core\obj\Debug\ResolveAssemblyReference.cache
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Core\obj\Debug\MutDood.Storage.Core.dll
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Storage.Core\obj\Debug\MutDood.Storage.Core.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Storage.Core.dll
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Storage.Core.pdb

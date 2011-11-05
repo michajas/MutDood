@@ -6,3 +6,6 @@ D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\Gen
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.exe
 D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Testing.Storage.exe
+D:\Dropbox\My Dropbox\Projects\MutDood\out\Debug\MutDood.Testing.Storage.pdb
+D:\Dropbox\My Dropbox\Projects\MutDood\MutDood.Testing.Storage\obj\x86\Debug\MutDood.Testing.Storage.MainWindow.resources

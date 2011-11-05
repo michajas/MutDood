@@ -8,10 +8,10 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="IStorable`0" priority="4" />
-      <Item value="Oid`0" priority="4" />
+      <Item value="IStorable`0" priority="7" />
+      <Item value="Oid`0" priority="5" />
       <Item value="searchCriteria" priority="0" />
-      <Item value="IDatabaseParameters" priority="0" />
+      <Item value="IDatabaseParameters" priority="1" />
       <Item value="databaseParameters" priority="0" />
       <Item value="DeleteDatabaseStatus`0" priority="0" />
       <Item value="databaseRemoveParameters" priority="0" />
@@ -25,60 +25,144 @@
       <Item value="string" priority="2" />
       <Item value="Int64`0" priority="1" />
       <Item value="bool" priority="0" />
-      <Item value="Type`0" priority="0" />
-      <Item value="byte" priority="1" />
-      <Item value="prop" priority="2" />
+      <Item value="Type`0" priority="1" />
+      <Item value="byte" priority="6" />
+      <Item value="prop" priority="4" />
       <Item value="enum" priority="0" />
-      <Item value="int" priority="1" />
+      <Item value="int" priority="2" />
       <Item value="Int32`0" priority="0" />
       <Item value="MainWindow`0" priority="0" />
+      <Item value="Storage`0" priority="3" />
+      <Item value="public" priority="3" />
+      <Item value="static" priority="3" />
+      <Item value="IStorage`0" priority="0" />
+      <Item value="return" priority="6" />
+      <Item value="new" priority="8" />
+      <Item value="IEngine" priority="0" />
+      <Item value="IEngine`0" priority="1" />
+      <Item value="engine" priority="2" />
+      <Item value="_engine" priority="0" />
+      <Item value="StorageStrategy" priority="0" />
+      <Item value="storageStrategy" priority="2" />
+      <Item value="switch" priority="1" />
+      <Item value="case" priority="1" />
+      <Item value="StorageStrategy`0" priority="1" />
+      <Item value="break" priority="2" />
+      <Item value="default" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="ctor" priority="1" />
+      <Item value="Engine`0" priority="0" />
+      <Item value="ISerializedStorable`0" priority="1" />
+      <Item value="IStorable" priority="0" />
+      <Item value="serializedStorable" priority="0" />
+      <Item value="ISerializer" priority="1" />
+      <Item value="var" priority="1" />
+      <Item value="null" priority="2" />
+      <Item value="DefaultSerializer" priority="0" />
+      <Item value="DefaultSerializer`0" priority="2" />
+      <Item value="ParamArrayAttribute`0" priority="0" />
+      <Item value="ISerializer`0" priority="0" />
+      <Item value="IProperty" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="Type" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="_serializer" priority="0" />
+      <Item value="toStore" priority="0" />
+      <Item value="Oid" priority="0" />
+      <Item value="_storage" priority="3" />
+      <Item value="MutDood" priority="0" />
+      <Item value="Storage" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="StorageState" priority="0" />
+      <Item value="testStorable" priority="0" />
+      <Item value="List&lt;ISerializedStorable&gt;" priority="0" />
+      <Item value="IDatabaseRemoveParameters" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="mbox" priority="0" />
+      <Item value="IMetadataStorage`0" priority="2" />
+      <Item value="_metadataStorage" priority="2" />
+      <Item value="IDatabaseSchema`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MutDood.Storage.Interfaces.Core.Metadata.StorageStrategy">
+      <Item value="Speed" priority="1" />
+      <Item value="SpeedEsent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MutDood.Storage.Strategies.Speed.Engine">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MutDood.Storage.Core.Serialization.DefaultSerializer">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MutDood.Storage.Interfaces.Core.ISerializer">
+      <Item value="Serialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MutDood.Storage.Core.Storage">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MutDood.Storage.Interfaces.IStorage">
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MutDood.Storage.Interfaces.IMetadataStorage">
+      <Item value="SaveSchema`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:DeleteDatabaseStatus.cs" caret="109" fromTop="4" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:Did.cs" caret="335" fromTop="12" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseParameters.cs" caret="331" fromTop="10" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:StorageStrategy.cs" caret="86" fromTop="2" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseRemoveParameters.cs" caret="152" fromTop="4" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageManagement.cs" caret="402" fromTop="11" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorage.cs" caret="276" fromTop="10" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="0" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageInstrumentation.cs" caret="235" fromTop="7" />
-      <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="13" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:ISearchCriteria.cs" caret="22" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="0" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="0" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IProperty.cs" caret="0" fromTop="0" />
       <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IMethod.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="112" fromTop="4" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/f:ISerializedStorable.cs" caret="153" fromTop="6" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/f:ISerializer.cs" caret="313" fromTop="8" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Strategy/f:IEngine.cs" caret="95" fromTop="4" />
+      <File id="CF82C1BE-5A49-40F3-BCB7-1DA585F19BBF/f:Engine.cs" caret="280" fromTop="12" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:StorageElements/f:Storable.cs" caret="201" fromTop="7" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:StorageElements/f:Property.cs" caret="330" fromTop="11" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:Serialization/f:DefaultSerializer.cs" caret="569" fromTop="19" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseRemoveParameters.cs" caret="95" fromTop="2" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:MetadataElements/f:DatabaseRemoveParameters.cs" caret="243" fromTop="7" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:MetadataElements/f:DatabaseParameters.cs" caret="191" fromTop="6" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:StorageStrategy.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:DeleteDatabaseStatus.cs" caret="99" fromTop="3" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseSchema.cs" caret="170" fromTop="6" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="394" fromTop="16" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageManagement.cs" caret="0" fromTop="0" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="464" fromTop="12" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorage.cs" caret="430" fromTop="13" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="2111" fromTop="34" />
     </RecentFiles>
     <RecentEdits>
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseParameters.cs" caret="52" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="444" fromTop="12" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorage.cs" caret="383" fromTop="12" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="444" fromTop="14" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="279" fromTop="6" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageManagement.cs" caret="556" fromTop="10" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageInstrumentation.cs" caret="113" fromTop="3" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageManagement.cs" caret="213" fromTop="6" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorage.cs" caret="191" fromTop="5" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="213" fromTop="5" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="71" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IStorable.cs" caret="157" fromTop="6" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IProperty.cs" caret="209" fromTop="8" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:IMethod.cs" caret="193" fromTop="8" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:Did.cs" caret="31" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="247" fromTop="14" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:Did.cs" caret="335" fromTop="12" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="16" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="0" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:StorageStrategy.cs" caret="86" fromTop="2" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseParameters.cs" caret="329" fromTop="10" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseRemoveParameters.cs" caret="152" fromTop="4" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorageInstrumentation.cs" caret="245" fromTop="7" />
-      <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="437" fromTop="17" />
-      <File id="7667355F-9F36-4B3C-AABC-8BD943BB1B39/f:Program.cs" caret="13" fromTop="0" />
-      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:ISearchCriteria.cs" caret="22" fromTop="0" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1168" fromTop="14" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:Serialization/f:DefaultSerializer.cs" caret="772" fromTop="4" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/f:ISerializedStorable.cs" caret="153" fromTop="6" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/f:ISerializer.cs" caret="313" fromTop="8" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="922" fromTop="18" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="776" fromTop="14" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:Serialization/f:DefaultSerializer.cs" caret="417" fromTop="15" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1166" fromTop="25" />
+      <File id="CF82C1BE-5A49-40F3-BCB7-1DA585F19BBF/f:Engine.cs" caret="301" fromTop="12" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:StorageElements/f:Property.cs" caret="153" fromTop="5" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:StorageElements/f:Property.cs" caret="351" fromTop="11" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:StorageElements/f:Storable.cs" caret="173" fromTop="5" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="124" fromTop="4" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Storage/f:Oid.cs" caret="394" fromTop="16" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="2111" fromTop="19" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:Serialization/f:DefaultSerializer.cs" caret="569" fromTop="19" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:MetadataElements/f:DatabaseParameters.cs" caret="252" fromTop="6" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/d:MetadataElements/f:DatabaseRemoveParameters.cs" caret="243" fromTop="7" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/d:Core/d:Metadata/f:IDatabaseSchema.cs" caret="170" fromTop="6" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IStorage.cs" caret="430" fromTop="13" />
+      <File id="B2A9CE15-5FE6-4B8F-BC08-66650C946D49/f:IMetadataStorage.cs" caret="464" fromTop="12" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="493" fromTop="14" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1217" fromTop="17" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1431" fromTop="24" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1557" fromTop="29" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1704" fromTop="31" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="1862" fromTop="33" />
+      <File id="ECA1C184-3217-464E-A32E-48132CAE47BB/f:Storage.cs" caret="2014" fromTop="34" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

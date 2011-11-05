@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\out\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MetadataElements\DatabaseParameters.cs" />
+    <Compile Include="MetadataElements\DatabaseRemoveParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serialization\DefaultSerializer.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="StorageElements\Property.cs" />
+    <Compile Include="StorageElements\Storable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MutDood.Storage.Interfaces\MutDood.Storage.Interfaces.csproj">
+      <Project>{B2A9CE15-5FE6-4B8F-BC08-66650C946D49}</Project>
+      <Name>MutDood.Storage.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MutDood.Storage.Strategies.Speed\MutDood.Storage.Strategies.Speed.csproj">
+      <Project>{CF82C1BE-5A49-40F3-BCB7-1DA585F19BBF}</Project>
+      <Name>MutDood.Storage.Strategies.Speed</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

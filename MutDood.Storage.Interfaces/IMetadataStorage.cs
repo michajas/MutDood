@@ -8,8 +8,8 @@ namespace MutDood.Storage.Interfaces
     /// </summary>
     public interface IMetadataStorage
     {
-        Oid SaveSchema(IStorable schemaStorable);
-        IStorable GetSchema(Oid schemaOid);
-        IStorable GetSchemaForDatabase(Did databaseId);
+        Oid SaveSchema(IDatabaseSchema schema);
+        IDatabaseSchema GetSchema(Did databaseId);
+        IDatabaseSchema GetSchemaForDatabase(Did databaseId);
     }
 }

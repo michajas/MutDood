@@ -1,4 +1,5 @@
 ﻿using MutDood.Storage.Interfaces.Core;
+using MutDood.Storage.Interfaces.Core.Metadata;
 using MutDood.Storage.Interfaces.Core.Storage;
 
 namespace MutDood.Storage.Interfaces
@@ -8,8 +9,8 @@ namespace MutDood.Storage.Interfaces
     /// </summary>
     public interface IStorage
     {
-        Oid Save(IStorable toStore);
-        IStorable Get(Oid oid);
-        IStorable[] Find(ISearchCriteria searchCriteria);
+        Oid Save(Did dbId, IStorable toStore);
+        IStorable Get(Did dbId, Oid oid);
+        IStorable[] Find(Did dbId, ISearchCriteria searchCriteria);
     }
 }

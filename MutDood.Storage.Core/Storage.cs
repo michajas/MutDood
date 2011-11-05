@@ -9,10 +9,10 @@ using MutDood.Storage.Strategies.Speed;
 
 namespace MutDood.Storage.Core
 {
-    public class Storage : IStorage
+    public class Storage : IStorage, IMetadataStorage
     {
         private IEngine _engine;
-        private ISerializer _serializer;
+        private readonly ISerializer _serializer;
 
         private Storage(IEngine engine, ISerializer serializer)
         {
@@ -37,17 +37,35 @@ namespace MutDood.Storage.Core
 
         }
 
-        public Oid Save(IStorable toStore)
+        public Oid Save(Did dbId, IStorable toStore)
+        {
+            var serialized = _serializer.Serialize(toStore);
+
+            return new Oid(new byte[] {0x01}, new byte[] {0x02});
+        }
+
+        public IStorable Get(Did dbId, Oid oid)
         {
             throw new NotImplementedException();
         }
 
-        public IStorable Get(Oid oid)
+        public IStorable[] Find(Did dbId, ISearchCriteria searchCriteria)
         {
             throw new NotImplementedException();
         }
 
-        public IStorable[] Find(ISearchCriteria searchCriteria)
+
+        public Oid SaveSchema(IDatabaseSchema schema)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDatabaseSchema GetSchema(Did databaseId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDatabaseSchema GetSchemaForDatabase(Did databaseId)
         {
             throw new NotImplementedException();
         }

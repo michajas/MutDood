@@ -13,11 +13,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutDood.Storage.Interfaces"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{319054CE-9F5F-4843-A49C-23A9D83C133A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutDood.Testing.Storage", "MutDood.Testing.Storage\MutDood.Testing.Storage.csproj", "{7667355F-9F36-4B3C-AABC-8BD943BB1B39}"
-EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Specification", "Specification\Specification.modelproj", "{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutDood.Storage.Test", "MutDood.Storage.Test\MutDood.Storage.Test.csproj", "{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAFDB1C4-621B-4773-9081-F60DE9D8C87D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MutDood.vsmdi = MutDood.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MutDood.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -57,16 +67,6 @@ Global
 		{B2A9CE15-5FE6-4B8F-BC08-66650C946D49}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B2A9CE15-5FE6-4B8F-BC08-66650C946D49}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B2A9CE15-5FE6-4B8F-BC08-66650C946D49}.Release|x86.ActiveCfg = Release|Any CPU
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Debug|x86.ActiveCfg = Debug|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Debug|x86.Build.0 = Debug|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Release|Any CPU.ActiveCfg = Release|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Release|Mixed Platforms.Build.0 = Release|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Release|x86.ActiveCfg = Release|x86
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39}.Release|x86.Build.0 = Release|x86
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -77,6 +77,16 @@ Global
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A29A1B21-7D48-4255-9EFE-B6FACDE60C6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +96,7 @@ Global
 		{74A8BF97-86F9-49B4-9BA5-8B02347C8679} = {25F65FE9-CE2F-4AAE-8F34-3B08BD62142A}
 		{B2A9CE15-5FE6-4B8F-BC08-66650C946D49} = {25F65FE9-CE2F-4AAE-8F34-3B08BD62142A}
 		{CF82C1BE-5A49-40F3-BCB7-1DA585F19BBF} = {74A8BF97-86F9-49B4-9BA5-8B02347C8679}
-		{7667355F-9F36-4B3C-AABC-8BD943BB1B39} = {319054CE-9F5F-4843-A49C-23A9D83C133A}
+		{F3FCBCF4-9EAB-4307-8278-CFED282DECC7} = {319054CE-9F5F-4843-A49C-23A9D83C133A}
+		{AAFDB1C4-621B-4773-9081-F60DE9D8C87D} = {319054CE-9F5F-4843-A49C-23A9D83C133A}
 	EndGlobalSection
 EndGlobal
